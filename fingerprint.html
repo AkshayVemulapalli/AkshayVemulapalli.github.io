@@ -17,8 +17,15 @@
 	</ul>
       </nav>
     </header>
-    <h1>CSII ISP: Doodle Jump AI</h1>
-    <p id='essay'>
+    <h3>An Analysis of HTTPS Connection Exploitation Methods</h3>
+    <p class="text">
+      Akshay Vemulapalli
+      Allen ISD Steam Center
+      Advanced Computer Science III
+       Mr. Ben-Yaakov
+      August 25, 2022
+    </p>
+    <p class="essay">
       &emsp;HTTPS stands for Hypertext Transfer Protocol Secure. Data sent over HTTPS connections is encrypted, so important information, like passwords and credit card numbers, cannot be monitored or seen by Internet users looking at the data passed through the wires. In addition to encryption, an HTTPS Connection, also known as an SSL or TLS connection, also provides authentication, using CAs, or Certificate Authorities. Websites have to prove their identity in the real world in order to get digitally signed by a CA. Web browsers contain a long list of CAs that it trusts, and can verify the authenticity of a website if it is signed by one of the CAs on the list (GRC, 2020).
       <br>
       &emsp;However, device have been designed to get around the security provided by these HTTPS connections, and these are called HTTPS Proxy Appliances. Companies, Schools, and Internet Providers can add its own Pseudo Certificate Authority to the trusted list of CAs in users' browsers or computers. The Proxy then creates a spoofed web server certificate that impersonates the actual remote site the user is trying to use, and signs the certificate using the Pseudo CA that was already added to the browser, giving it access to the data sent through the “secure” HTTPS connection. This web server decrypts and logs all of the data sent from the browser, stripping away all privacy and security from the user. It then re-encrypts the data and, impersonating the user, sends it to the actual remote site (GRC, 2020). This is also known as a Man In The Middle attack, which is when someone puts themselves in between a user and an application in order to take personal information. An MITM attack is like a mailman looking inside an envelope with your bank statement before sending it to its destination (Imperva, 2019).
@@ -29,6 +36,11 @@
       <br>
       &emsp;Schools, governments, and Internet Service Providers should not have the right to eavesdrop on user communications because corrupt individuals would be able to use the data unethically. In an ideal world, officials would only use this information to help or protect people, but there usually tends to be some degree of corruption among these people, because many people have their own interests at heart, and this might mean harming others to benefit themselves.
       <br>
+    </p>
+    <h2>References</h2>
+    <p class="essay">
+      What is MITM (man in the middle) attack: Imperva. Learning Center. (2019, December 29). Retrieved August 26, 2022, from https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/ 
+      Steve Gibson, G. I. B. S. O. N. R. E. S. E. A. R. C. H. C. O. R. P. O. R. A. T. I. O. N. (2020). GRC :  SSL TLS HTTPS web server certificate fingerprints  . GRC | SSL TLS HTTPS Web Server Certificate Fingerprints  . Retrieved August 26, 2022, from https://www.grc.com/fingerprints.htm 
     </p>
   </body>
 </html>
