@@ -85,3 +85,9 @@ a {
     color: rgb(34 211 238);
     text-decoration: none;
 }
+#essay{
+    margin-left: 15vh;
+    margin-right: 15vh;
+    color: white;
+    text-align: center;
+}
