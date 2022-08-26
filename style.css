@@ -52,12 +52,7 @@ h3{
     margin-top: 90px;
 }
 
-#fn{
-    color: rgb(219, 39, 119);
-}
-#ln{
-    color: rgb(34 211 238);
-}
+
 
 header {
     background-color:black;
@@ -83,8 +78,10 @@ a {
     text-decoration: none;
 }
 #fn{
-    color: rgb(219, 39, 119);
+    color: rgb(219 39 119);
+    text-decoration: none;
 }
 #ln{
     color: rgb(34 211 238);
+    text-decoration: none;
 }
