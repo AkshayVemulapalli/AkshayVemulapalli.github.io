@@ -92,3 +92,8 @@ a {
     text-align: center;
     font-size: 20px;
 }
+#ref{
+    text-align: right;
+    margin-left: 25vh;
+    font-size: 20px;
+}
