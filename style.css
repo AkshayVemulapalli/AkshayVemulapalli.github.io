@@ -6,10 +6,13 @@ body {
     margin-top: 15vh;
     padding: 30px;
 }
-
 img{
     display: block;
     margin: 0px auto 0px;
+}
+.wcenter{
+    color: white;
+    text-align: center;
 }
 p{
     color: white;
@@ -51,7 +54,19 @@ h3{
     margin: 0px;
     margin-top: 90px;
 }
-
+.tdn{
+    text-decoration: none;
+}
+.tdnw{
+    text-decoration: none;
+    color: white;
+}
+.rp{
+    color: rgb(219 39 119);
+}
+.active{
+    color: rgb(34 211 238);
+}
 
 
 header {
@@ -97,6 +112,7 @@ a {
     margin-left: 25vh;
     margin-right: 25vh;
 }
-.active{
-    color: rgb(34 211 238)
-}
+
+
+
+/*https://resilienteducator.com/instructional-design/hanging-indents-in-html-and-css-for-instructional-designers/*//
