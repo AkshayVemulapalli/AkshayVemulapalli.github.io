@@ -1,23 +1,29 @@
 body {
-    background-color: black;
+    background-color: #121212;
     background-size: cover;
     font-family: sans-serif;
     font-weight: 550;
     margin-top: 15vh;
     padding: 30px;
 }
+.mono{
+    font-family: Roboto Mono, monospace;
+    font-weight: 300;
+}
 img{
     display: block;
     margin: 0px auto 0px;
 }
 .w{
-    color: white;
+    color: rgb(255, 255, 255);
+}
+.cg{
+    color: #A9A9A9;
+}
+.clg{
+    color: #BBBBBB;
 }
 .tcenter{
-    text-align: center;
-}
-p{
-    color: white;
     text-align: center;
 }
 h1{
@@ -44,7 +50,6 @@ h3{
     font-size: 15px;
 }
 #desc {
-    color:white;
     text-align: center;
     font-size: 20px;
     line-height: 1.2;
@@ -61,20 +66,25 @@ h3{
 .tdn{
     text-decoration: none;
 }
-.tdnw{
-    text-decoration: none;
-    color: white;
+.cp{
+    color: #BB86FC;
 }
-.rp{
-    color: rgb(219 39 119);
+.cpv1{
+    color: #6200EE;
 }
-.lb{
-    color: rgb(34 211 238);
+.cpv2{
+    color: #3700B3;
+}
+.cs{
+    color: #03DAC5;
+}
+.csv{
+    color: #018786;
 }
 
 
 header {
-    background-color:black;
+    background-color: #121212;
     position: fixed;
     top: 0;
     left: 0;
@@ -83,20 +93,43 @@ header {
     display: flex;
     align-items: center;    
 }
-header * {
-    display: inline;
-}
-nav {
+
+nav{
     margin: auto;
 }
 header li {
-    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    display: inline-block;
+    position: relative;
 }
 header li a {
     color: white;
     text-decoration: none;
 }
 
+header li a::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #03DAC5;
+    position: absolute;
+    bottom: 0;
+    transition: all ease-in-out 400ms;
+}
+header li a:hover::before{
+    width: 100%;
+}
+.active::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #03DAC5;
+    bottom: 0;
+}
 .essay{
     margin-left: 25vh;
     margin-right: 25vh;
