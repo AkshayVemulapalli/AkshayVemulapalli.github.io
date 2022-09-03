@@ -131,13 +131,15 @@ header li a:hover::before{
     bottom: 0;
 }
 .essay{
+    text-indent: 45px;
     margin-left: 25vh;
     margin-right: 25vh;
-    color: white;
-    text-align: center;
+    text-align: left;
     line-height: 2;
 }
-#ref{
+.ref{
+    text-indent: -45px;
+    padding-left: 45px;
     text-align: left;
     margin-left: 25vh;
     margin-right: 25vh;
