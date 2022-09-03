@@ -113,16 +113,19 @@ header li a::before{
     content: '';
     display: block;
     height: 3px;
+    margin-left: 50%;
     width: 0%;
     background-color: #03DAC5;
     position: absolute;
     bottom: 0;
-    transition: all ease-in-out 400ms;
+    transition: all ease-in-out 300ms;
 }
 header li a:hover::before{
     width: 100%;
+    margin-left: 0%;
 }
 .active::before{
+    margin-left: 0%;
     content: '';
     display: block;
     height: 3px;
