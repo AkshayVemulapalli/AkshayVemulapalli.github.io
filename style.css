@@ -18,7 +18,7 @@ img{
     color: rgb(255, 255, 255);
 }
 .cg{
-    color: #A9A9A9;
+    color: #ABABAB;
 }
 .clg{
     color: #BBBBBB;
@@ -138,6 +138,8 @@ header li a:hover::before{
     margin-left: 20vw;
     margin-right: 20vw;
     text-align: left;
+}
+.lh2{
     line-height: 2;
 }
 .ref{
@@ -146,6 +148,7 @@ header li a:hover::before{
     text-align: left;
     margin-left: 20vw;
     margin-right: 20vw;
+    line-height: 2;
 }
 
 
