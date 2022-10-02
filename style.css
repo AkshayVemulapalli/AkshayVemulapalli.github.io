@@ -150,5 +150,8 @@ header li a:hover::before{
     margin-right: 20vw;
     line-height: 2;
 }
-
+div{
+    margin: auto;
+    width: 326px
+}
 
