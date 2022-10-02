@@ -2,7 +2,6 @@ body {
     background-color: #121212;
     background-size: cover;
     font-family: sans-serif;
-    font-weight: 550;
     margin-top: 15vh;
     padding: 30px;
 }
@@ -15,10 +14,10 @@ img{
     margin: 0px auto 0px;
 }
 .w{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);  
 }
 .cg{
-    color: #ABABAB;
+    color: #CCCCCC;
 }
 .clg{
     color: #BBBBBB;
@@ -62,6 +61,7 @@ h3{
     font-size: 90px;
     margin: 0px;
     margin-top: 90px;
+    font-weight: 550;
 }
 .tdn{
     text-decoration: none;
@@ -103,6 +103,7 @@ header li {
     margin-left: 40px;
     display: inline-block;
     position: relative;
+    font-weight: 550;
 }
 header li a {
     color: white;
@@ -139,6 +140,12 @@ header li a:hover::before{
     margin-right: 20vw;
     text-align: left;
 }
+.nessay{
+    text-indent: 45px;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    text-align: left;
+}
 .lh2{
     line-height: 2;
 }
@@ -150,8 +157,11 @@ header li a:hover::before{
     margin-right: 20vw;
     line-height: 2;
 }
-div{
+.crs{   
     margin: auto;
-    width: 326px
+    width: 344px
+}
+.bold{
+    font-weight: 700;
 }
 
