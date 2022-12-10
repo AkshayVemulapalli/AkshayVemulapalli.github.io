@@ -143,6 +143,7 @@ header li a:hover::before{
 }
 .essay{
     font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
     text-indent: 45px;
     margin-left: 25vw;
     margin-right: 25vw;
